@@ -21,6 +21,6 @@ public class PasswordCheck {
                 }
             }
         } while (!passValid || digitCount < 2 || passLength < 8);
-        System.out.println("Password is valid!");
+        System.out.println("Password valid!");
     }
 }
